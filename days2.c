@@ -1,11 +1,10 @@
 #include<stdio.h>
 int main() {
-
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */  
+    
     
     int month;
-    scanf("%d",&month);
-      switch(month){
+    scanf("%d",&month); //taking value from user
+      switch(month){   // using switch case to compare every value of month with their  no of days
               case 1:
               printf("%d\n",31);
               break;
@@ -56,7 +55,7 @@ int main() {
                
               
               default:
-              printf("Wrong month value.");
+              printf("Wrong month value."); // 
               
         
       }
